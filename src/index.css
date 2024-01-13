@@ -3,5 +3,19 @@
 @tailwind utilities;
 
 body {
-  @apply text-gray-200 bg-gray-800;
+  @apply text-gray-200 bg-gray-900;
+}
+
+@layer components {
+  .primary {
+    background-color: #1e3a8a;
+    border-color: #1e3a8a;
+    color: #fff;
+  }
+  .secondary {
+    background-color: #ccdaff;
+    border-color: #ccdaff;
+    color: #000;
+    font-weight: bold;
+  }
 }
